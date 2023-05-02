@@ -1,0 +1,346 @@
+/* Header section  */
+.nav-header ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.nav-header li {
+    padding: 1rem 1rem;
+}
+
+.nav-header li a:focus,
+.nav-header li a:hover {
+    color: var(--black-);
+    text-decoration: none;
+}
+
+.header .navbar-brand {
+    height: 10rem;
+    padding: 3rem 1.5rem;
+
+}
+
+.header .navbar-nav li {
+    padding: 0 10px
+}
+
+.header .navbar-nav>li>a {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--light-blue);
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.header .list-hover>li>a:focus,
+.header .list-hover>li>a:hover {
+    color: var(--white-);
+    background-color: var(--light-blue);
+}
+
+.header .navbar-nav {
+    margin-top: 25px;
+}
+
+.header .navbar-default {
+    margin-bottom: 0;
+}
+
+/* Designer section */
+
+.designer-sec {
+    padding: 15rem 0;
+    background-color: var(--light-blue);
+}
+
+.designer-sec .pri-heading {
+    font-size: 72px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: var(--white-);
+}
+
+.designer-sec .para {
+    font-size: 2.4rem;
+    color: var(--light-blue01);
+    width: 103%;
+    font-weight: 400;
+}
+
+.btn-default {
+    color: var(--white-);
+    background-color: var(--green-);
+    border-color: #ccc;
+    font-size: 1.8rem;
+    border-color: var(--green-);
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 1rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.designer-sec .btn-default:hover {
+    color: var(--green-);
+    background-color: var(--white-);
+    border: 1px solid var(--white-);
+}
+
+/* Beautiful section */
+.sec-heading {
+    font-size: 4.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--light-blue);
+}
+
+.para {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--light-blue02);
+}
+
+.beautiful-sec .box {
+    height: 6rem;
+    width: 6rem;
+    background-color: var(--green-);
+}
+
+.beautiful-sec .beauti-heading {
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--light-blue);
+    margin-top: 0;
+}
+
+.beautiful-sec .beauti-para {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--light-blue02);
+}
+
+.beautiful-sec .fa-3x {
+    color: var(--green-);
+}
+
+
+
+/* Work section */
+.work-sec {
+    background-color: var(--white01-);
+}
+
+.work-sec .box-01 {
+    height: 390px;
+    background-color: var(--green-);
+    object-fit: cover;
+}
+
+.work-sec .work-pri-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--light-blue);
+}
+
+.work-sec .work-sec-heading {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: var(--light-blue02);
+}
+
+.work-sec .heading {
+    background-color: white;
+    padding: 2px;
+}
+
+.work-sec .box-02 {
+    height: 180px;
+    background-color: var(--green-);
+    object-fit: cover;
+}
+
+.work-sec .scroll-list li {
+    padding-right: 2.5rem;
+}
+
+/* work-want section  */
+.work-want .btn-default:hover {
+    background-color: var(--dark-blue);
+    color: var(--white-);
+     
+}
+
+/* Footer Section */
+
+.footer-sec{
+    background-color: var(--dark-blue);
+}
+.footer-sec .f-heading {
+    font-size: 1.6rem;
+    color: var(--);
+    color: var(--white-);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.footer-sec .f-para {
+    font-size: 1.4rem;
+    color: var(--light-blue01);
+    font-weight: 400;
+}
+.footer-sec .f-list {
+    padding: 0;
+    font-size: 1.5rem;
+}
+.f-list li a:link ,.f-list li a:visited {
+    color: var(--light-blue01);
+}
+.footer-sec .f-box{
+    height:80px;
+    width:100%;
+    background-color:var(--green-);
+}
+.padding {
+    padding: 0 5px;
+    margin-bottom: 1rem;
+}
+
+.footer-sec .form-inline .form-group {
+    width:calc(100% - 90px)
+}
+
+.footer-sec .btn {
+    font-size: 11px;
+    color: var(--white-);
+    background-color: var(--green-);
+    padding: 8px 5px;
+    transition: all 0.5s ease-in-out;
+}
+.footer-sec .btn:hover,.footer-sec .btn:focus,.footer-sec .btn:active{
+    background-color:var(--white-);
+    color: var(--green-);
+}
+
+/* Footer-navbar Section */
+.f-navbar{
+    background-color: #273545;
+    padding: 3rem 0;
+}
+.f-navbar .navbar-nav li a {
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    color: #707e8c;
+    padding: 10px 15px;
+    transition: all 0.4s ease-in-out;
+}
+.f-navbar .navbar-nav li a:hover{
+    background-color: #707e8c;
+    color : #273545;
+    border-radius: 5px;
+}
+.f-navbar .navbar-nav li{
+    margin-right:6px;
+}
+
+.f-navbar .f-list li{
+    padding:6px 0;
+}
+.scrollup{
+    position: relative;
+}
+.scrollup li .fa-2x {
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    color:#707e8c
+}
+
+
+
+@media all and (min-width:668px) and (max-width : 1200px) {
+    .beautiful-sec .container , .work-sec .container, .work-want .container,.footer-sec .container {
+        width: 100%;
+    }
+     
+    
+}
+
+@media all and (max-width:992px) {
+    .mb-40 {
+        margin-bottom: 4rem;
+    }
+    .beautiful-sec , .work-sec ,.work-want , .footer-sec{
+        padding : 1rem;
+    }
+    .footer-sec .form-inline .form-group {
+        width: calc(100% - 170px);
+    }
+
+    
+}
+
+@media all and (max-width : 668px) {
+    .sec-heading {
+        font-size: 2.4rem;
+    }
+
+    .para {
+        font-size: 1.5rem;
+    }
+
+    .fa-3x {
+        font-size: 2em;
+    }
+    .beautiful-sec , .work-sec ,.work-want , .footer-sec{
+        padding : 1rem;
+    }
+    .footer-sec .form-inline .form-group {
+        width: 100%;
+        text-align: -webkit-center;
+        margin-bottom: 5px;
+    }
+    .f-list li {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .designer-sec .para {
+        margin-bottom: 20px;
+    }
+    .designer-sec {
+        padding: 4rem 0;
+    }
+    .f-navbar .f-list {
+        padding: 0;
+    }
+    .f-navbar .f-list li{
+        margin: 0;
+    }
+    .f-navbar .navbar-nav li {
+        margin-right: 0;
+    }
+    
+}
+
+@media all and (max-width:400px){
+    .designer-sec .pri-heading {
+        font-size: 35px;
+    }
+    .designer-sec .para {
+        font-size: 1.4rem;
+    }
+    .work-sec .work-pri-heading {
+        font-size: 1rem;
+    }
+    .btn-default {
+        font-size: .8rem;
+    }
+    .work-sec .scroll-list{
+        padding:1.2rem;
+    }
+    .beautiful-sec , .work-sec ,.work-want , .footer-sec{
+        padding : 1rem;
+    }
+}
